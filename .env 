@@ -1,0 +1,15 @@
+DB_NAME=blog_db
+DB_PASSWORD=
+DB_USER= "root"
+
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/budgetDB',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
+
+mongodb+srv://cgjones0711:<Cgj01079544@@>@cluster0.zpn0b.mongodb.net/budgetDB?retryWrites=true&w=majority
