@@ -41,3 +41,5 @@ https://github.com/cgjones0711/Budget-Tracker.git
 
 https://git.heroku.com/budget-app-1986.git
 
+![Budget Tracker](./budget-tracker.png)
+
